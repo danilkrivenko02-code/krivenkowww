@@ -1,0 +1,26 @@
+name: SimpleUtils
+version: 1.0.0
+main: com.example.simpleutils.SimpleUtils
+api-version: '1.21'
+author: you
+description: Spawn, home и tpa в одном плагине
+
+commands:
+  setspawn:
+    description: Установить точку спавна
+    permission: simpleutils.setspawn
+  spawn:
+    description: Телепорт на спавн
+  sethome:
+    description: Установить дом
+  home:
+    description: Телепорт домой
+  tpa:
+    description: Запрос телепорта к игроку
+    usage: /tpa <игрок>
+  tpaccept:
+    description: Принять запрос телепорта
+
+permissions:
+  simpleutils.setspawn:
+    default: op
